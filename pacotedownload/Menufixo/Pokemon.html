@@ -1,0 +1,287 @@
+<!--Rafael Santos N°28-->
+<!DOCTYPE html>
+ <html>
+  <head> 
+	 <title>Pokemon</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" href="style.css">
+</head>
+     <body>
+       <header>
+          <h1>Bem-vindo</h1>
+         <div id="Pokeball" onclick="abrir()">
+            <div id="base"> </div>
+          
+              <div id="tampa">
+                  Menu
+                    
+                <div id="faixa">
+                  <button onclick="abrir()"></button>
+                  </div>
+             </div>
+             
+        </div>
+             <nav id="menu">
+               <ul>
+                  
+                   <li><a href="#Sobre">Sobre</a></li>
+                   
+                    <li class="drop"><a href="#Evolucao" class="dropBTN">Evolução</a>
+                   <nav class="dropContent">
+                       
+                        <a href="#Natural/Level">Natural/Level</a>
+                       
+                       <a href="#Pedras">Pedras Evolutivas</a>
+                       
+                       <a href="#Troca">Trocas</a>
+                       
+                     
+                     
+                       
+                       
+                        
+                        </nav>
+                   </li>
+                  
+                   <li class="drop">
+                    <a href="#Movimentos" class="dropBTN">Movimentos</a>
+                       
+                    <nav class="dropContent">
+                        <a href="#Level/Natural">Level/Natural</a>
+                        
+                        <a href="#TM/HM">TM/HM</a>
+                        
+                         <a href="#Move Tutors">Move Tutors</a>
+                        
+                         <a href="#Evolution">Evolução</a>
+                        
+                         <a href="#Eggmove">EGG Moves</a>
+                        
+                       </nav>
+                   </li>
+                   
+                   <li> <a href="#Tipos">Tipos</a></li>
+                  
+                   <li> <a href="#Pokeballs">Pokeball</a></li>
+                  
+                  </ul>
+                
+             </nav>
+         </header>
+    <section>
+      <div id="Sobre">
+        <h2>Sobre:</h2>
+        
+        <p>Pokémon ou "Pocket Monsters" são conhecido como "Monstros de bolso". Fazem sucesso desde 1995, ano em que Satoshi Tajiri criou, o mundo de Pokémon não fez sucesso apenas na TV, também foram lançados inúmeros jogos dessa franquia, tendo o seu primeiro jogo lançado em 1996 pela Game Freak.</p>
+          
+        <p>Os jogos de Pokémon, como tradição, são lançados em pares, em 1996, tivemos os primeiros jogos, Red e Blue/Green lançados para Gameboy Color, e até os dias atuais a Game Freak continua ativa, com os jogos Pokémon Sword e Pokémon Shield, lançados em 2019 para Nintendo Switch. Os games são RPG e consiste em capturar pokémons, subir o nivel deles e batalhar, com o objetivo de concluir a história do game. </p>
+          
+          <p>Saindo um pouco dos jogos, os monstrinhos de bolso, ganharam fama e foram para a televisão. "Pokémon: Indigo League" foi ao ar pela primeira vez em 01 de Abril de 1997, um após o lançamento dos primeiros jogos, foi exibido na TV Tokyo no Japão, chegando no Brasil apenas em 1999. </p>
+          
+          <p>Atualmente a série animada contém 22 temporadas, e esse número tente a crescer, sendo que a temporada atual teve inicio no final de 2019. A série se consiste em um garoto de 10 anos e seu Pikachu, Ash Ketchum ("Satoshi" no Japão), busca se tornar o melhor treinador do mundo ao lado de seu Pikachu, a cada temporada nosso heroi vai em busca de vencer ligas que acontecem em diferentes regiões.</p>
+          
+          <p>Pokémon hoje ganha o mundo com sua série de jogos e seu desenho, os jogos possuem histórias diferentes do desenho, porém, os monstro encontrados nos jogos e no anime são os mesmos, pode ser uma chance de entrar nesse universo. A empresa "Niantic" fez isso virar realidade, como seu jogo "Pokémon GO" para android, agora é possível sair pelo mundo em busca de pokémons, mas claro, sempre com cuidado e responsabilidade, o jogo consiste em usar o GPS do seu aparelho para movimentar o personagem, quando encontar um pokémon basta ir até ele e tentar capturar.</p>
+        
+        </div>
+        
+        
+        <div id="Tipos">
+        <h2>Tipos:</h2>
+        <p>O mundo Pokémon possuem diversos tipos variádos, atualmente são 18 tipos diferentes de pokemons para capturar, esses "tipos" são como forças elementais, e cada tipo possui vantagens e desvantagens contra outros tipos. Começando os exemplos com as tipagens básicas:"FOGO", "ÁGUA" e "GRAMA".</p>
+        
+        <p id="agua">Tipo Água: Pokémons do tipo água possuem resistência e vantagens contra os tipos fogo, porém, são fracos contra pokémons da tipagem grama.</p>
+            
+         <p id="fogo">Tipo Fogo: Pokémons do tipo Fogo possuem resistência e vantagens contra os tipos grama, porém, são fracos contra pokémons da tipagem Água..</p>
+            
+         <p id="grama">Tipo Grama: Pokémons do tipo Grama possuem resistência e vantagens contra os tipos água, porém, são fracos contra pokémons da tipagem fogo.</p>
+            
+        <p>Esses são os 3 tipos básicos, pois quando se inicia uma jornada Pokémon você possui esses três tipos de opções para escolher, (Os pokémos podem variar de acordo com a região), agora vamos listar os demais tipos, será uma lista grande, então fique avontade para pegar um biscoito enquanto estuda sobre os tipos.</p>
+            
+         <p id="Eletrico">Tipo Elétrico: Pokémons do tipo elétrico possuem resistência e vantagens contra os tipos água e voadores, porém, são fracos contra pokémons da tipagem grama e terrestres.</p>
+            
+         <p id="Terrestre">Tipo Terrestres: Pokémons do tipo terrestre possuem resistência e vantagens contra os tipos fogo e tipo elétrico, porém, são fracos contra pokémons da tipagem grama, água e gelo.</p>
+            
+         <p id="Voador">Tipo Voador: Pokémons do tipo voador possuem resistência e vantagens contra os tipos grama, lutador e terrestres(golpes do tipo terrestre não afeta os tipos voadores), porém, são fracos contra pokémons da tipagem elétrico, gelo e rocha.</p>
+            
+         <p id="Rocha">Tipo Rocha: Pokémons do tipo rocha possuem resistência e vantagens contra os tipos fogo, normal, veneno e voador, porém, são fracos contra pokémons da tipagem grama,água, terrestres, metálicos e lutadores.</p>
+            
+         <p id="Lut">Tipo Lutador: Pokémons do tipo lutador possuem resistência e vantagens contra os tipos rocha, gelo metálicos e normal, porém, são fracos contra pokémons da tipagem voador e pisiquico.</p>
+            
+         <p id="Psy">Tipo Pisiquico: Pokémons do tipo pisiquico possuem resistência e vantagens contra os tipos veneno e lutador, porém, são fracos contra pokémons da tipagem inseto, dark e fantasma.</p>
+            
+         <p id="Dark">Tipo Dark: Pokémons do tipo dark possuem resistência e vantagens contra os tipos ghost e pisiquico, porém, são fracos contra pokémons da tipagem fada, lutador e inseto.</p>
+            
+         <p id="ghost">Tipo Ghost: Pokémons do tipo Ghost possuem resistência e vantagens contra os tipos normal e pisiquico, porém, são fracos contra pokémons da tipagem dark.</p>
+            
+         <p id="Normal">Tipo Normal: Pokémons do tipo normal possuem resistência contra tipo ghost, porém, são fracos contra pokémons da tipagem lutador.</p>
+            
+         <p id="inseto">Tipo Inseto: Pokémons do tipo inseto possuem resistência e vantagens contra os tipos pisiquicos e dark, porém, são fracos contra pokémons da tipagem voador e fogo.</p>
+            
+         <p id="metal">Tipo Metálico: Pokémons do tipo metálico possuem resistência e vantagens contra os tipos grama, água, fada e normal, porém, são fracos contra pokémons da tipagem fogo, terrestre e lutador.</p>
+            
+         <p id="fada">Tipo Fada: Pokémons do tipo fada possuem resistência e vantagens contra os tipos dragão e dark, porém, são fracos contra pokémons da tipagem metálicos e venenosos.</p>
+        
+         <p id="Dragon">Tipo Dragão: Pokémons do tipo dragão possuem resistência e vantagens contra os tipos fogo, dragão(vantagem) e água, porém, são fracos contra pokémons da tipagem fada, dragão e gelo.</p>
+            
+         <p id="gelo">Tipo Gelo: Pokémons do tipo gelo possuem resistência e vantagens contra os tipos grama, dragão e terrestre, porém, são fracos contra pokémons da tipagem fogo, metálicos e lutadores.</p>
+            
+         <p id="veneno">Tipo Veneno: Pokémons do tipo veneno possuem resistência e vantagens contra os tipos fada e grama, porém, são fracos contra pokémons da tipagem metálicos, e terrestres.</p>
+         <p id="veneno">Tipo Veneno: Pokémons do tipo veneno possuem resistência e vantagens contra os tipos fada e grama, porém, são fracos contra pokémons da tipagem metálicos, e terrestres.</p>
+        
+        </div>
+        
+        <div id="Movimentos">
+        <h2>Movimentos:</h2>
+        <p>Pokémons são criaturas que possuem diversos tipos, essas criaturas também são usadas para batalharem uns com os outros, assim como suas tipagens, seus movimentos também são variádos e a forma de aprendê-los também são diferentes.</p>
+            
+        <p id="Level/Natural">Em jogos de Pokémon, cada monstrinho pode aprender seus movimentos em determinados leveis, quanto mais alto seu nivel, melhores movimentos o monstrinho aprende, esses movimentos podem ser variádos, podendo se ataques de corpo ou ataques de longa distância, também aprendem ataques estratégicos, que podem causar status negativos como paralisia ou envenenamento, além de poder também controlar o terreno e clima, como ataques de "Sunny day" que muda o clima para ensolarado, e também o movimento "Grassy Terrain" que muda o ambiente no campo de batalha, esses movimentos precisar ser utilizados de forma estratégica, de modo que seu pokemon aproveite 100% de sua habilidade especial(não entraremos em muitos detalhes, mas vale a pena procurar por esse tema). Também podem aprender movimentos que atualiza seus status ou faz o adversário perder status, um exemplo é o novimento "Tail whip" um movimento que reduz os status defensivos do adversário. "Swords Dance" é um movimento que aumenta os status ofensivos do pokemon que utiliza o movimento.</p>
+        
+        <p id="TM/HM">Outra forma do pokémon aprender um movimento é utilizando TM ou HM, TMs possuem o formato de um "CD" e pode ser ensinado para seu companheiro, nem todos os pokémons vão aprender o movimento que está no TM, e a diferença nos jogos é que HM são movimentos que podem ser utilizados foram de uma batalha, como o HM "Fly" que te permite voar para outras cidades, também não são todos que são capazes aprender certos HMs, outra diferença é que TMs podem ser trocados por outros movimentos a qualquer momento, HMs são permanentes e só podem ser deletados por um "Move Deleter" que são Npcs encontrados nos jogos. (TMs e HMs não existem na série animada de Pokémon). </p>
+            
+        <p id="Move Tutors">Move Tutors, são tutores que ensinam diferentes tipos de movimentos para seus pokémons, assim como os TMs, não são todos que podem aprender os movimentos, porém existe um tipo de Move Tutor que é o oposto do Move Deleter, ele faz com que seu pokemon relembre algum movimento que foi trocado no passado são os Move Reminders, ele só precisa que você entregue uma Heart Scale, um item encontrado nos jogos. Já fizeram poucas aparições na série animada.</p>
+            
+        <p id="Evolution">Alguns movimentos o pokemon só pode aprender quando evoluem, como é o caso do Riolu que só aprender o movimento "Aura Sphere" após evoluir para Lucário (logo falaremos sobre evoluções).</p>
+            
+        <p id="Eggmove">Outra forma dos monstrinhos aprenderem movimentos, é em seu nascimento, os chamados "EGG Moves", nesse tipo de movimento, o pokemon herda um movimento de seu pai durante um breeding(aconselho pesquisar mais sobre esse assunto), porém o pokemon só pode ser cruzado com outros pokemons que estão em um mesmo egg group, por hora não entraremos em detalhes sobre isso.</p>
+        </div>
+        
+        <div id="Evolucao">
+        <h2>Evolução:</h2>
+          
+        <p>Como vimos na parte de movimentos, existem pokémons que aprendem movimento quando evoluem, mas como isso ocorre?
+            
+        esse processo pode gerar mudanças de habilidades, status e alguns casos até pode ter a adição de um novo tipo ou a troca de um tipo para outro, nem todos os pokemons são capazes de evoluir.</p>
+        
+        <p id="Natural/Level">Assim como pokemons são capazes de aprendem diferentes tipos de movimentos naturalmente, no meio desse processo podem ocorrer mudanças de estágios, cada pokemon possui uma evolução diferente e a forma de evoluir também podem variar (veremos mais adiante). Alguns pokemons basta aumentar seus niveis e brincar com eles que quando for o momento certos eles irão evoluir e se tornarem mais fortes.</p>
+            
+        <p id="Pedras">Pedras Evolutivas, são pedras especiais capazes de evoluir outros ipos de pokemons, não todos pokemons que podem evoluir por pedras. para que você entenda melhor utilizaremos um pokemon.</p>
+            
+        <p> O pokemon Eevee é conhecido como pokemon evolução, ele pode evoluir para diferentes tipos de pokemon, é possivel evoluir com as 3 pedras evolutivas espostas na tela, basta clicar em uma delas e verá a magica.</p>
+            
+            
+        <div id="pedras">
+         <img src="eevee.png" alt="Pokemon Eeevee do desenho Pokemon">    
+            </div>
+        <img src="stonefire.png" alt="Pedra de fogo" class="pedras" onclick="evoluir()">
+        <img src="stonethunder.png" alt="pedra de raio"  class="pedras" onclick="evoluir2()">
+        <img src="stonewater.png" alt="pedra da agua"  class="pedras" onclick="evoluir3()">
+            
+        <p id="Troca">Outros pokemons só podem evoluir depois de serem trocados com outros treinadores, isso também pode variar, alguns precisam estar segurando itens e outros só evoluem se forem trocados por outros pokemons em específico, que não é o exemplo abaixo.</p>
+            
+        <div id="exemploTrade">
+            <div id="ex1"><img src="Kadabra.png"></div>
+            <div id="ex2"><img src="haunter.png"></div>
+            
+            <button onclick="trade()">Trocar</button>
+            
+            </div>
+        
+        </div>
+        
+        <div id="Pokeballs">
+        <h2>Pokeball:</h2>
+         
+        <p>Hora de falar sobre o simbolo da franquia (inclusive do nosso menu), a Pokebola, essa farramenta é muito utilizada no mundo pokemon, com isso você captura e armazena seus monstrinhos em seu bolso, podemos usar nosso menu como exemplo, mas em vez de sair um menu com opções de navegação, sai um pokemon, cada pokebola possui diferentes tipos de efeitos e eficiências, porém, isso é história para outro dia.</p>
+        
+        </div>
+        
+        
+         <p>Com essas informações você está pronto para começar sua jornada e ser um dos melhores treinadores.</p>
+         
+  
+         </section>
+  
+    
+     
+     
+     
+     
+         
+     <script>
+         var eevee = document.createElement("img");
+         
+         var pokeball=document.getElementById("Pokeball");
+         
+          var evo=document.getElementById("pedras");
+         
+         var base=document.getElementById("base");
+         
+         var menu = document.querySelector("nav");
+         
+         function trade(){
+              var ex1=document.getElementById("ex1");
+              var ex2=document.getElementById("ex2");
+             
+             var a = document.createElement("img");
+             
+              var b = document.createElement("img");
+             
+             ex1.innerHTML=" ";
+             ex2.innerHTML=" ";
+             
+             a.setAttribute("src","Gengar.png");
+            b.setAttribute("src","Alakazam.png");
+             
+             ex1.appendChild(a);
+             ex2.appendChild(b);
+             
+         }
+        function evoluir(){
+        eevee.setAttribute("src","flareon.png");
+        
+            evo.innerHTML=" ";
+            
+            evo.appendChild(eevee);
+            
+            
+        }
+         
+              function evoluir2(){
+        eevee.setAttribute("src","Jolteon.png");
+        
+            evo.innerHTML=" ";
+            
+            evo.appendChild(eevee);
+            
+            
+        }
+         
+                   function evoluir3(){
+        eevee.setAttribute("src","vaporeon.png");
+        
+            evo.innerHTML=" ";
+            
+            evo.appendChild(eevee);
+            
+            
+        }
+         
+         function abrir(){
+             if(pokeball.style.transform=="rotate(-90deg)"){
+                 pokeball.style.transform="rotate(0deg)";
+                 
+                 base.style.transform="translateY(0px)";
+                 
+                 base.style.transform="translateY(-82px)"; 
+                 
+                 menu.style.display="none";
+             }else{
+                 pokeball.style.transform="rotate(-90deg)";
+                 
+                 base.style.transform="translateY(342px)";
+                 
+                 menu.style.display="block";
+             }
+         }
+         
+         
+         
+         
+         
+         
+         
+         
+         </script>     
+     </body>
+</html>
+     
